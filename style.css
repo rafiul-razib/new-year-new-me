@@ -1,3 +1,117 @@
-*{
+*{  
+    margin: 0;
     font-family: 'Work Sans', sans-serif;
+}
+
+.banner{
+    text-align: end;
+    padding: 100px;
+    color: white;
+    max-width: 1100px;
+}
+
+.banner h1{
+    font-size: 65px;
+}
+
+.banner p{
+    width: 490px;
+    margin-left: auto;
+    
+}
+
+header{
+    background-image: url('./images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-primary{
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 2px solid #005FAC;
+    color: #005FAC;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.my-failure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-failure P{
+    margin-top: 30PX;
+    margin-bottom: 30px;
+}
+
+.my-failure ul {
+    list-style: none;
+}
+.my-failure ul li {
+    text-align: start;
+}
+
+.my-failure ul li::before{
+    content:"\2714\0020";
+    color: green;
+}
+
+.half-width{
+    width: 50%;
+    padding: 50px;
+}
+
+.my-plans{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.plan{
+    text-align: center;
+}
+
+.touch{
+    width: 1140px;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(0, 95, 172, 1), rgba(0, 95, 172, 0)),url('./images/watch.png');
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.touch-text{
+    padding: 80px;
+}
+
+.touch-text h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer p{
+    margin-top: 20px;
+}
+
+.my-icons{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.icon{
+    margin-top: 10px;
+    margin-right: 10px;
 }
